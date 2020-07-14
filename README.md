@@ -19,7 +19,7 @@
 
  ionic serve
 ```
-# En cas de problème pour (1)
+### En cas de problème pour (1)
 
 > npm cache clean -f
 
