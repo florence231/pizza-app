@@ -5,10 +5,11 @@
 > Ionic 5
 
 # Comment migrer vers Ionic 5
+``
+ npm uninstall -g ionic
 
-> npm uninstall -g ionic
-
-> npm install -g ionic # sudo peut être requis 
+ npm install -g ionic # sudo peut être requis 
+ ``
 
 # Déploiement de l'application
 
