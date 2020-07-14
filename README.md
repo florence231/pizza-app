@@ -18,7 +18,7 @@
  npm install (1)
 
  ionic serve
-```
+
 ### En cas de problème pour (1)
 
 > npm cache clean -f
@@ -26,3 +26,4 @@
 > npm install -g npm
 
 > npm cache verify
+```
