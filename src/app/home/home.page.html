@@ -1,7 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <div class="top">
+        <img src="assets/imgs/logo.png" alt="LOGO" id="logo" width="32" height="32" id="logotop">
+        <span>Accueil</span>
+      </div>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +12,27 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">
+        <div class="top">
+          <img src="assets/imgs/logo.png" alt="LOGO" id="logo" width="32" height="32" id="logotop">
+          <span>Accueil</span>
+        </div>
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <img src="assets/imgs/logo.png" alt="LOGO" id="logo">
+    <div class="list">
+      <h2>Découvrez nos PIZZAS</h2>
+      <div class="card" *ngFor="let d of data">
+        <img [src]="d ? d.url : ''" [alt]="d ? d.nom: ''">
+        <div>
+          <h3>{{ d ? d.nom : '' }}</h3>
+          <h1>{{ d ? d.prix + ' F' : '' }}</h1>
+        </div>
+      </div>
+    </div>
   </div>
+
 </ion-content>
