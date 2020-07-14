@@ -2,7 +2,9 @@
 
 # Requirement
 
- ``` Ionic 5 ```
+ ```
+ Ionic 5 
+ ```
 
 # Comment migrer vers Ionic 5
 ```
@@ -13,11 +15,11 @@
 
 # Déploiement de l'application
 ```
- npm install  [1]
+ npm install  [1](1)
 
  ionic serve
 ```
-# En cas de problème pour [1]
+# En cas de problème pour (1)
 
 > npm cache clean -f
 
