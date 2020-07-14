@@ -10,12 +10,12 @@
 ```
  npm uninstall -g ionic
 
- npm install -g ionic # sudo peut être requis 
+ npm install -g ionic #sudo peut être requis 
  ```
 
 # Déploiement de l'application
 ```
- npm install  [1](1)
+ npm install (1)
 
  ionic serve
 ```
