@@ -8,7 +8,7 @@ Ionic 5
 
 npm uninstall -g ionic
 
-npm install -g ionic // sudo peut être requis 
+npm install -g ionic # sudo peut être requis 
 
 # Déploiement de l'application
 
